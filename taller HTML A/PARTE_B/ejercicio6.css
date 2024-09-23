@@ -1,0 +1,46 @@
+body {
+    display: grid;
+    grid-template-rows: 1fr auto; 
+    min-height: 100vh;
+    margin: 0;
+}
+nav {
+display: flex;
+justify-content: space-between;
+background-color: rgb(134, 161, 174);
+position: fixed;
+width: 100%;
+}
+nav ul {
+display: flex;
+}
+nav ul li {
+list-style: none;
+padding: 10px;
+}
+nav ul li a {
+text-decoration: none;
+color: rgb(21, 16, 16);
+}
+.contenedor{
+padding: 20px;
+}
+.imagenes{
+display: grid;
+justify-items:center; 
+}
+
+.imagenes img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 300px;
+    height: 300px;
+    
+}
+footer{
+background-color: rgb(152, 140, 162);
+text-align: center;
+padding: 10px;
+color: white;
+bottom: 0;
+}
